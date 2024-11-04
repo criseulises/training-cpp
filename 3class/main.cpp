@@ -16,7 +16,7 @@ void Process() {
   user3->Greet();
 
 
-  shared_ptr<User> user4 = make_shared<User>("Roylin");
+  shared_ptr<User> user4 = make_shared<User>("MARCOS");
   user4->Greet();
   shared_ptr<User> user5 = user4;
   user5->Greet();
