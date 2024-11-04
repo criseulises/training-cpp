@@ -4,10 +4,10 @@ using namespace std;
 
 void Process() {
 
-  User user("Cristian");
+  User user("Cristian"); // STACK MEMORY
   user.Greet();
 
-  User *user2 = new User("Jose");
+  User *user2 = new User("Jose"); // HEAP MEMORY
   user2->Greet();
   delete user2;
 };
